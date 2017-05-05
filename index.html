@@ -1,0 +1,837 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>暑假作业</title>
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="icon" href="images/favicon.ico"/>
+    <link rel="stylesheet" href="lib/bootstrap-3.3.6/dist/css/bootstrap.css"/>
+    <link rel="stylesheet" href="lib/swiper/css/swiper.css"/>
+    <link rel="stylesheet" href="css/index.css"/>
+</head>
+<!--头部-->
+<header class="nav">
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+            <div class="navbar-header col-md-2">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                        data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">
+                    <img src="images/nav_logo.png" alt=""/>
+                </a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse " id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="#">自由侠 <span class="sr-only">(current)</span></a></li>
+                    <li><a href="#">指南者</a></li>
+                    <li><a href="#">自由光</a></li>
+                    <li><a href="#">大切诺基</a></li>
+                    <li><a href="#">牧马人</a></li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <form class="navbar-form navbar-left hidden-sm hidden-md">
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="轮毂">
+                        </div>
+                        <button type="submit" class="btn btn-default">搜索</button>
+                    </form>
+                    <li><a href="#">预约</a></li>
+                    <li><a href="#">试驾</a></li>
+                    <li><a href="#">加入我们</a></li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+</header>
+<!--轮播图-->
+<div class="banner">
+    <div class="swiper-container">
+        <ul class="swiper-wrapper">
+            <li class="swiper-slide">
+                <a href="#"><img src="images/800x0_1_q87_201303250044465713450.jpg" alt=""/></a>
+            </li>
+            <li class="swiper-slide">
+                <a href="#"><img src="images/800x0_1_q87_20140123195946621272.jpg" alt=""/></a>
+            </li>
+            <li class="swiper-slide">
+                <a href="#"><img src="images/800x0_1_q87_autohomecar__wKjBzVaT2BWAanrTAANICoxlbTU480.jpg" alt=""/></a>
+            </li>
+            <li class="swiper-slide">
+                <a href="#"><img src="images/800x0_1_q87_20130228091239796264.jpg" alt=""/></a>
+            </li>
+            <li class="swiper-slide">
+                <a href="#"><img src="images/800x0_1_q87_201303242348494293450.jpg" alt=""/></a>
+            </li>
+            <li class="swiper-slide">
+                <a href="#"><img src="images/800x0_1_q87_20130226091010339264.jpg" alt=""/></a>
+            </li>
+        </ul>
+        <!--&lt;!&ndash; 如果需要分页器 &ndash;&gt;-->
+        <div class="swiper-pagination">
+        </div>
+
+        <!--&lt;!&ndash; 如果需要导航按钮 &ndash;&gt;-->
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+    </div>
+</div>
+<!--车型展示-->
+<div class="jeep_carshow">
+    <div class="container-fluid">
+        <div class="jeep_text">
+            <h3 class="text-center">车型展示</h3>
+        </div>
+        <div class="text-center">
+            <ul class="nav nav-tabs" role="tablist">
+                <li role="presentation" class="active"><a href="#xinche" aria-controls="xinche" role="tab"
+                                                          data-toggle="tab">新车上市</a></li>
+                <li role="presentation"><a href="#home" aria-controls="home" role="tab"
+                                           data-toggle="tab">自由侠</a></li>
+                <li role="presentation"><a href="#profile" aria-controls="profile" role="tab" data-toggle="tab">指南者</a>
+                </li>
+                <li role="presentation"><a href="#messages" aria-controls="messages" role="tab"
+                                           data-toggle="tab">自由光</a></li>
+                <li role="presentation"><a href="#settings" aria-controls="settings" role="tab"
+                                           data-toggle="tab">大切诺基</a></li>
+                <li role="presentation"><a href="#mumar" aria-controls="mumar" role="tab" data-toggle="tab">牧马人</a></li>
+            </ul>
+            <!-- Tab panes -->
+            <div class="tab-content">
+                <div role="tabpanel" class="tab-pane active" id="xinche">
+                    <div class="content row">
+                        <div class="container">
+                            <!--<div class="gaizi">-->
+                                <!--<img src="images/play.png" alt=""/>-->
+                            <!--</div>-->
+                            <video class="pause" src="images/新款Jeep大切诺基豪华SUV%20内饰配置升级_标清.mp4" controls="controls">
+                            </video>
+                        </div>
+                    </div>
+                </div>
+                <div role="tabpanel" class="tab-pane" id="home">
+                    <div class="content row">
+                        <div class="zyx_canshu col-md-3 hidden-xs hidden-sm">
+                            <ul class=" text-left">
+                                <h6>详细参数配置</h6>
+                                <li>6速手动变速箱</li>
+                                <li>发动机启停系统</li>
+                                <li>EPS 电子随速助力转向系统</li>
+                                <li>自适应减震系统</li>
+                                <li>17英寸铝合金轮毂</li>
+                                <li>无盖燃油加注系统</li>
+                                <li>前排车窗一键升降带防夹</li>
+                                <li>Uconnect®智能车载控制系统</li>
+                                <li>前排双安全气囊／侧安全气囊</li>
+                                <li>后窗电加热除霜</li>
+                            </ul>
+                        </div>
+                        <div class="zyx_car_color col-md-9">
+                            <ul class="zyx_car">
+                                <li style="display: block;"><img src="images/自由侠/images/color/car_b1.jpg" alt=""/></li>
+                                <li style="display: none;"><img src="images/自由侠/images/color/car_b2.jpg" alt=""/></li>
+                                <li style="display: none;"><img src="images/自由侠/images/color/car_b3.jpg" alt=""/></li>
+                                <li style="display: none;"><img src="images/自由侠/images/color/car_b4.jpg" alt=""/></li>
+                                <li style="display: none;"><img src="images/自由侠/images/color/car_b5.jpg" alt=""/></li>
+                                <li style="display: none;"><img src="images/自由侠/images/color/car_b6.jpg" alt=""/></li>
+                                <li style="display: none;"><img src="images/自由侠/images/color/car_b7.jpg" alt=""/></li>
+                                <li style="display: none;"><img src="images/自由侠/images/color/car_b8.jpg" alt=""/></li>
+                                <li style="display: none;"><img src="images/自由侠/images/color/car_b9.jpg" alt=""/></li>
+                                <li style="display: none;"><img src="images/自由侠/images/color/car_b10.jpg" alt=""/></li>
+                            </ul>
+                        </div>
+                        <div class="zyx_color col-xs-12 col-xs-push-1 col-md-push-4 col-sm-push-3">
+                            <ul class="car_color ">
+                                <li style=""><img src="images/自由侠/images/color/1.png" alt=""/></li>
+                                <li style=""><img src="images/自由侠/images/color/2.png" alt=""/></li>
+                                <li style=""><img src="images/自由侠/images/color/3.png" alt=""/></li>
+                                <li style=""><img src="images/自由侠/images/color/4.png" alt=""/></li>
+                                <li style=""><img src="images/自由侠/images/color/5.png" alt=""/></li>
+                                <li style=""><img src="images/自由侠/images/color/6.png" alt=""/></li>
+                                <li style=""><img src="images/自由侠/images/color/7.png" alt=""/></li>
+                                <li style=""><img src="images/自由侠/images/color/8.png" alt=""/></li>
+                                <li style=""><img src="images/自由侠/images/color/9.png" alt=""/></li>
+                                <li style=""><img src="images/自由侠/images/color/10.png" alt=""/></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div role="tabpanel" class="tab-pane" id="profile">
+                    <div class="content row">
+                        <div class="zyx_canshu col-md-3 hidden-xs hidden-sm">
+                            <ul class=" text-left">
+                                <h6>详细参数配置</h6>
+                                <li>1.4T I4 MultiAir®2 涡轮增加发动机</li>
+                                <li>5.0英寸中控台彩色触摸显示屏</li>
+                                <li>EPS 电子随速助力转向系统</li>
+                                <li>1.4T I4 MultiAir®2|7速双离合变速箱</li>
+                                <li>17英寸铝合金轮毂</li>
+                                <li>上坡辅助系统|后泊车雷达</li>
+                                <li>前排车窗一键升降带防夹</li>
+                                <li>胎压监测系统|Uconnect®智能车载控制系统</li>
+                                <li>前排双安全气囊／侧安全气囊</li>
+                                <li>Uconnect®LIVE手机互联系统</li>
+                            </ul>
+                        </div>
+                        <div class="zyx_car_color col-md-9">
+                            <ul class="znz_car">
+                                <li style="display: block;"><img src="images/指南者/images/carImg/co10.png" alt=""/></li>
+                                <li style="display: none;"><img src="images/指南者/images/carImg/co11.png" alt=""/></li>
+                                <li style="display: none;"><img src="images/指南者/images/carImg/co12.png" alt=""/></li>
+                                <li style="display: none;"><img src="images/指南者/images/carImg/co13.png" alt=""/></li>
+                                <li style="display: none;"><img src="images/指南者/images/carImg/co14.png" alt=""/></li>
+                                <li style="display: none;"><img src="images/指南者/images/carImg/co15.png" alt=""/></li>
+                                <li style="display: none;"><img src="images/指南者/images/carImg/co16.png" alt=""/></li>
+                                <li style="display: none;"><img src="images/指南者/images/carImg/co17.png" alt=""/></li>
+                            </ul>
+                        </div>
+                        <div class="zyx_color col-xs-12 col-xs-push-1 col-md-push-4 col-sm-push-3">
+                            <ul class="znz_color ">
+                                <li style="">
+                                    <img class="bg" src="images/指南者/images/carImg/co21.png" alt=""/>
+                                    <img class="bgtop" src="images/指南者/images/carImg/co22.png" alt=""/>
+                                </li>
+                                <li style="">
+                                    <img class="bg" src="images/指南者/images/carImg/co21.png" alt=""/>
+                                    <img class="bgtop" src="images/指南者/images/carImg/co23.png" alt=""/>
+                                </li>
+                                <li style="">
+                                    <img class="bg" src="images/指南者/images/carImg/co21.png" alt=""/>
+                                    <img class="bgtop" src="images/指南者/images/carImg/co24.png" alt=""/>
+                                </li>
+                                <li style="">
+                                    <img class="bg" src="images/指南者/images/carImg/co21.png" alt=""/>
+                                    <img class="bgtop" src="images/指南者/images/carImg/co25.png" alt=""/>
+                                </li>
+                                <li style="">
+                                    <img class="bg" src="images/指南者/images/carImg/co21.png" alt=""/>
+                                    <img class="bgtop" src="images/指南者/images/carImg/co26.png" alt=""/>
+                                </li>
+                                <li style="">
+                                    <img class="bg" src="images/指南者/images/carImg/co21.png" alt=""/>
+                                    <img class="bgtop" src="images/指南者/images/carImg/co27.png" alt=""/>
+                                </li>
+                                <li style="">
+                                    <img class="bg" src="images/指南者/images/carImg/co21.png" alt=""/>
+                                    <img class="bgtop" src="images/指南者/images/carImg/co28.png" alt=""/>
+                                </li>
+                                <li style="">
+                                    <img class="bg" src="images/指南者/images/carImg/co21.png" alt=""/>
+                                    <img class="bgtop" src="images/指南者/images/carImg/co29.png" alt=""/>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div role="tabpanel" class="tab-pane" id="messages">
+                    <div class="content row">
+                        <div class="zyx_canshu col-md-3 hidden-xs hidden-sm">
+                            <ul class=" text-left">
+                                <h6>详细参数配置</h6>
+                                <li>2.4L MultiAir®2 Tigershark®</li>
+                                <li>豪华亮色双排气管</li>
+                                <li>9速手自一体变速箱</li>
+                                <li>前排座椅12向调节及加热功能</li>
+                                <li>17英寸铝合金轮毂</li>
+                                <li>Keyless Enter -N- Go ™</li>
+                                <li>前排车窗一键升降带防夹</li>
+                                <li>智能无钥匙进入/一键启动系统</li>
+                                <li>8.4英寸液晶中控触摸屏</li>
+                                <li> 7.0英寸彩色液晶仪表显示系统</li>
+                            </ul>
+                        </div>
+                        <div class="zyx_car_color col-md-9">
+                            <ul class="zyg_car">
+                                <li style="display: block;"><img src="images/自由光/images/2.4Llimited/co10.png" alt=""/>
+                                </li>
+                                <li style="display: none;"><img src="images/自由光/images/2.4Llimited/co11.png" alt=""/>
+                                </li>
+                                <li style="display: none;"><img src="images/自由光/images/2.4Llimited/co12.png" alt=""/>
+                                </li>
+                                <li style="display: none;"><img src="images/自由光/images/2.4Llimited/co13.png" alt=""/>
+                                </li>
+                                <li style="display: none;"><img src="images/自由光/images/2.4Llimited/co14.png" alt=""/>
+                                </li>
+                                <li style="display: none;"><img src="images/自由光/images/2.4Llimited/co15.png" alt=""/>
+                                </li>
+                                <li style="display: none;"><img src="images/自由光/images/2.4Llimited/co16.png" alt=""/>
+                                </li>
+                                <li style="display: none;"><img src="images/自由光/images/2.4Llimited/co17.png" alt=""/>
+                                </li>
+                                <li style="display: none;"><img src="images/自由光/images/2.4Llimited/co18.png" alt=""/>
+                                </li>
+
+                            </ul>
+                        </div>
+                        <div class="zyx_color col-xs-12 col-xs-push-1 col-md-push-4 col-sm-push-3">
+                            <ul class="znz_color  zyg_color">
+                                <li style="">
+                                    <img class="bg" src="images/自由光/images/2.4Llimited/co21.png" alt=""/>
+                                    <img class="bgtop" src="images/自由光/images/2.4Llimited/co22.png" alt=""/>
+                                </li>
+                                <li style="">
+                                    <img class="bg" src="images/自由光/images/2.4Llimited/co21.png" alt=""/>
+                                    <img class="bgtop" src="images/自由光/images/2.4Llimited/co23.png" alt=""/>
+                                </li>
+                                <li style="">
+                                    <img class="bg" src="images/自由光/images/2.4Llimited/co21.png" alt=""/>
+                                    <img class="bgtop" src="images/自由光/images/2.4Llimited/co24.png" alt=""/>
+                                </li>
+                                <li style="">
+                                    <img class="bg" src="images/自由光/images/2.4Llimited/co21.png" alt=""/>
+                                    <img class="bgtop" src="images/自由光/images/2.4Llimited/co25.png" alt=""/>
+                                </li>
+                                <li style="">
+                                    <img class="bg" src="images/自由光/images/2.4Llimited/co21.png" alt=""/>
+                                    <img class="bgtop" src="images/自由光/images/2.4Llimited/co26.png" alt=""/>
+                                </li>
+                                <li style="">
+                                    <img class="bg" src="images/自由光/images/2.4Llimited/co21.png" alt=""/>
+                                    <img class="bgtop" src="images/自由光/images/2.4Llimited/co27.png" alt=""/>
+                                </li>
+                                <li style="">
+                                    <img class="bg" src="images/自由光/images/2.4Llimited/co21.png" alt=""/>
+                                    <img class="bgtop" src="images/自由光/images/2.4Llimited/co28.png" alt=""/>
+                                </li>
+                                <li style="">
+                                    <img class="bg" src="images/自由光/images/2.4Llimited/co21.png" alt=""/>
+                                    <img class="bgtop" src="images/自由光/images/2.4Llimited/co29.png" alt=""/>
+                                </li>
+                                <li style="">
+                                    <img class="bg" src="images/自由光/images/2.4Llimited/co21.png" alt=""/>
+                                    <img class="bgtop" src="images/自由光/images/2.4Llimited/co30.png" alt=""/>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div role="tabpanel" class="tab-pane" id="settings">
+                    <div class="content row">
+                        <div class="zyx_canshu col-md-3 hidden-xs hidden-sm">
+                            <ul class=" text-left">
+                                <h6>详细参数配置</h6>
+                                <li>蝉联2014-2015"全球十佳"称号</li>
+                                <li>Quadra-Trac®全时四驱系统</li>
+                                <li>无钥匙进入/启动系统</li>
+                                <li> 7" 客户自定义液晶仪表系统</li>
+                                <li>3.0TD EcoDiesel V6柴油发动机</li>
+                                <li>8.4" Uconnect 液晶中控系统</li>
+                                <li> Selec-Terrain® 路况模式自选系统</li>
+                                <li>Uconnect®智能车载控制系统</li>
+                                <li>巡航控制系统</li>
+                                <li>前后排座椅加热</li>
+                            </ul>
+                        </div>
+                        <div class="zyx_car_color col-md-9">
+                            <ul class="qnj_car">
+                                <li style="display: block;"><img src="images/大切诺基/car9.png" alt=""/></li>
+                                <li style="display: none;"><img src="images/大切诺基/car10.png" alt=""/></li>
+                                <li style="display: none;"><img src="images/大切诺基/car11.png" alt=""/></li>
+                                <li style="display: none;"><img src="images/大切诺基/car12.png" alt=""/></li>
+                                <li style="display: none;"><img src="images/大切诺基/car13.png" alt=""/></li>
+                                <li style="display: none;"><img src="images/大切诺基/car14.png" alt=""/></li>
+                                <li style="display: none;"><img src="images/大切诺基/car15.png" alt=""/></li>
+                            </ul>
+                        </div>
+                        <div class="zyx_color col-xs-12 col-xs-push-1 col-md-push-4 col-sm-push-3">
+                            <ul class="znz_color qnj_color">
+                                <li style="">
+                                    <img class="bg" src="images/大切诺基/co21.png" alt=""/>
+                                    <img class="bgtop" src="images/大切诺基/co31.png" alt=""/>
+                                </li>
+                                <li style="">
+                                    <img class="bg" src="images/大切诺基/co21.png" alt=""/>
+                                    <img class="bgtop" src="images/大切诺基/co32.png" alt=""/>
+                                </li>
+                                <li style="">
+                                    <img class="bg" src="images/大切诺基/co21.png" alt=""/>
+                                    <img class="bgtop" src="images/大切诺基/co33.png" alt=""/>
+                                </li>
+                                <li style="">
+                                    <img class="bg" src="images/大切诺基/co21.png" alt=""/>
+                                    <img class="bgtop" src="images/大切诺基/co34.png" alt=""/>
+                                </li>
+                                <li style="">
+                                    <img class="bg" src="images/大切诺基/co21.png" alt=""/>
+                                    <img class="bgtop" src="images/大切诺基/co35.png" alt=""/>
+                                </li>
+                                <li style="">
+                                    <img class="bg" src="images/大切诺基/co21.png" alt=""/>
+                                    <img class="bgtop" src="images/大切诺基/co36.png" alt=""/>
+                                </li>
+                                <li style="">
+                                    <img class="bg" src="images/大切诺基/co21.png" alt=""/>
+                                    <img class="bgtop" src="images/大切诺基/co37.png" alt=""/>
+                                </li>
+
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div role="tabpanel" class="tab-pane" id="mumar">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="pic">
+                                <a class="col-md-12" href="#"><img src="images/牧马人/images/c1.jpg" alt=""/></a>
+                                <a class="col-md-6" href="#"><img src="images/牧马人/images/show1.jpg" alt=""/></a>
+                                <a class="col-md-6" href="#"><img src="images/牧马人/images/show2.jpg" alt=""/></a>
+                                <a class="col-md-6" href="#"><img src="images/牧马人/images/show3.jpg" alt=""/></a>
+                                <a class="col-md-6" href="#"><img src="images/牧马人/images/c3.jpg" alt=""/></a>
+                                <a class="col-md-12" href="#"><img src="images/牧马人/images/c4.jpg" alt=""/></a>
+                                <a class="col-md-6" href="#"><img src="images/牧马人/images/freetop1.jpg" alt=""/></a>
+                                <a class="col-md-6" href="#"><img src="images/牧马人/images/freetop2.jpg" alt=""/></a>
+                                <a class="col-md-12" href="#"><img src="images/大切诺基/images/1.jpg" alt=""/></a>
+                                <a class="col-md-12" href="#"><img src="images/大切诺基/images/6.jpg" alt=""/></a>
+                                <a class="col-md-6" href="#"><img src="images/大切诺基/images/5.jpg" alt=""/></a>
+                                <a class="col-md-6" href="#"><img src="images/大切诺基/images/10.jpg" alt=""/></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+<!--品牌文化-->
+<div class="culture">
+    <div class="container">
+        <div class="jeep_text">
+            <h3 class="text-center">车型简介</h3>
+        </div>
+        <div class="text-center" id="pinpai">
+
+            <a class="btn btn-primary" role="button" data-toggle="collapse" href="#collapseExample"
+               aria-expanded="false"
+               aria-controls="collapseExample">
+                自由侠
+            </a>
+            <a class="btn btn-primary" role="button" data-toggle="collapse" href="#zhinanzhe" aria-expanded="false"
+               aria-controls="collapseExample">
+                指南者
+            </a>
+            <a class="btn btn-primary" role="button" data-toggle="collapse" href="#ziyouguan" aria-expanded="false"
+               aria-controls="collapseExample">
+                自由光
+            </a>
+            <a class="btn btn-primary" role="button" data-toggle="collapse" href="#mumaren" aria-expanded="false"
+               aria-controls="collapseExample">
+                牧马人
+            </a>
+            <a class="btn btn-primary" role="button" data-toggle="collapse" href="#qienuoji" aria-expanded="false"
+               aria-controls="collapseExample">
+                大切诺基
+            </a>
+        </div>
+        <div class="collapse" id="collapseExample">
+            <div class="well">
+                <div class="media">
+                    <div class="media-left">
+                        <a href="#">
+                            <img class="media-object hidden-xs " src="images/自由侠/images/sy_effec1_2.jpg" alt="...">
+                        </a>
+                    </div>
+                    <div class="media-body">
+                        <h4 class="media-heading">追上这个79KW/L升功率性能巨兽的影子, 是“小侠们”的下一个目标!</h4>
+                        79千瓦超高升功率源自1.4T高功率涡轮增压发动机+
+                        同级少有的7DDCT双离合自动变速箱
+
+                        1.4T高功率涡轮增压发动机带来79KW/L升功率,比类似级别1.8L自然进气车型功率提高10%,7DDCT双离合自动变速箱带来的是传动效率提升最大33%,实现更快速的换挡响应。
+                    </div>
+                </div>
+                <div class="media">
+                    <div class="media-body">
+                        <h4 class="media-heading">
+                            领先而完备的
+                            <span class="anquan">安全性</span></h4>
+                        自由侠整车高达70%高强度钢车身结构，配上全新2014标准E-NCAP欧洲五星小型SUV碰撞超高分的光环，
+                        全力打造史上最硬的Jeep。
+                    </div>
+                    <div class="media-left hidden-sm">
+                        <a href="#">
+                            <img class="media-object hidden-xs" src="images/car_axy2.png" alt="...">
+                        </a>
+                    </div>
+
+                </div>
+                <div class="media">
+                    <div class="media-body">
+                        <h4 class="media-heading">车内静音优化</h4>
+                        自由侠通过风噪控制、发动机噪声优化、胎噪控制等技术，使得到怠速时车内分贝仅有38dBA，
+                        带来优异静音表现，打造静谧专属空间。 更有专业级品牌音响系统调校，更年轻化的定制音响品牌，
+                        音效更动感，无论摇滚、小清新、民谣都有极赞的表现。
+                    </div>
+                    <div class="media-right">
+                        <a href="#">
+                            <img class="media-object hidden-xs" src="images/jingjing123.png" alt="...">
+                        </a>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+        <div class="collapse" id="zhinanzhe">
+            <div class="well">
+                <div class="jumbotron">
+                    <h3><img src="images/circle2.png" alt=""/></h3>
+
+                    <h3><img src="images/circle2.png" alt=""/></h3>
+
+                    <p><img src="images/inter-block02-text04.png" alt=""/></p>
+
+                    <p><img src="images/inter-block02-text.jpg" alt=""/></p>
+                    <span class="hidden-xs hidden-sm"><img src="images/blockActive.png" alt=""/></span>
+                </div>
+
+            </div>
+        </div>
+        <div class="collapse" id="ziyouguan">
+            <div class="well">
+                <div class="media">
+                    <div class="media-left hidden-xs">
+                        <a href="#">
+                            <img class="media-object" src="images/wg13.jpg" alt="...">
+                        </a>
+                    </div>
+                    <div class="media-body">
+                        <h4 class="media-heading">专业的全路况能力</h4>
+                        Selec-Terrain®路况模式自选技术+Jeep® Active Drive智能四驱系统
+                        针对自驾出行可能遇到的不同气候环境与路面状况，创造同级更为丰富的四大驾驶模式。
+                        将节油、高速操控性和户外环境下的可靠通过性完美兼备，让每次出行加倍无忧。
+                    </div>
+                </div>
+                <div class="media">
+                    <div class="media-body">
+                        <h4 class="media-heading">
+                            领先而完备的安全性</h4>
+                        车道偏离警告系统
+                        如果侦测到非正常变道，
+                        会发出警示图标进行警告，
+                        同时通过方向盘的振动来进行提示，
+                        并进行方向主动修正。
+                        在60到160公里时速范围内自动激活，
+                        可通过打方向灯、转动方向盘、
+                        加速或减速来解除警告
+                    </div>
+                    <div class="media-left hidden-xs hidden-sm">
+                        <a href="#">
+                            <img class="media-object" src="images/wg9.jpg" alt="...">
+                        </a>
+                    </div>
+
+                </div>
+                <div class="media">
+                    <div class="media-body">
+                        <h4 class="media-heading">专有的公路操控和驾乘享受</h4>
+                        FSD主动减震系统
+                        该技术在复杂及颠簸路面也拥有
+                        足够的路面贴合性，
+                        就好像给每一条起伏的路面铺了
+                        一层厚厚的地毯，
+                        确保乘客始终获得平稳服帖的
+                        乘坐感受。
+                    </div>
+                    <div class="media-right hidden-xs">
+                        <a href="#">
+                            <img class="media-object" src="images/wg16.jpg" alt="...">
+                        </a>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+        <div class="collapse" id="mumaren">
+            <div class="well">
+                <div class="media">
+                    <div class="media-left media-width">
+                        <a href="#">
+                            <img class="media-object" src="images/牧马人/images/index/pup2.jpg" alt="...">
+                        </a>
+                    </div>
+                    <div class="media-body pull-left">
+                        <h4 class="media-heading">
+                            征服陆地上最严苛地形的
+                        </h4>
+                        Trail Rated®徽章
+                        通过五项关键指标（牵引力、机动性、
+                        循迹性、涉水能力、通过性）考验的
+                        车辆将被授予此认证，
+                        标志该车型可在多种具有
+                        挑战性的路况下行驶。
+                    </div>
+                </div>
+                <div class="media">
+                    <div class="media-body pull-left">
+                        <h4 class="media-heading">
+                            自适应刚度可调五连杆悬挂
+                        </h4>
+                        配备具有低速阀门可变技术（LST）
+                        的高压单管避震器，
+                        根据车速自动调节避震器刚度，
+                        确保日常或极限驾驶的底盘支撑性。
+                        重新调教的转向系统，
+                        提供精准"路感"和最大转向刚度
+                    </div>
+                    <div class="media-left media-width">
+                        <a href="#">
+                            <img class="media-object" src="images/牧马人/images/index/pup8.jpg" alt="...">
+                        </a>
+                    </div>
+
+                </div>
+                <div class="media">
+                    <div class="media-body pull-left">
+                        <h4 class="media-heading">秉承经典造型，
+                            展现最纯粹风格</h4>
+                        源自第一代Willys的经典家族式七孔进气格栅
+                        和圆形前大灯，宽大的保险杠、梯形轮眉、
+                        可拆卸车门，可放倒的前挡风玻璃、
+                        外露铰链、75年经典恒久不变。
+                    </div>
+                    <div class="media-right media-width">
+                        <a href="#">
+                            <img class="media-object" src="images/牧马人/images/index/pup5.jpg" alt="...">
+                        </a>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+        <div class="collapse" id="qienuoji">
+            <div class="well">
+                <div class="media">
+                    <div class="row">
+                        <div class="media-left col-xs-12  col-lg-6 col-md-offset-0">
+                            <a href="javascript:;">
+                                <img class="media-object qnjpic1" src="images/大切诺基/index/design2.jpg" alt="...">
+                            </a>
+
+                            <a href="javascript:;" data-toggle="modal" data-target="#deng">
+                                <img class="media-object qnjpic2" src="images/大切诺基/index/design2_icon.png" alt="...">
+                            </a>
+                            <!-- Large modal 大 -->
+                            <div id="deng" class="modal fade bs-example-modal-lg  " tabindex="-1" role="dialog"
+                                 aria-labelledby="myLargeModalLabel">
+                                <div class="modal-dialog modal-lg" role="document">
+                                    <div class="modal-content">
+                                        <img src="images/大切诺基/index/pup1.jpg" alt=""/>
+
+                                        <p><span>标志性的LED前大灯系统</span>
+                                            前日间行车灯和转向指示灯均采用
+                                            环绕式LED造型，即便远距离也能
+                                            一眼识别，让美观与行车安全兼得。
+                                            同时隐藏于前大灯的清洗装置能有效
+                                            保证亮度，进一步提升整车豪华感。
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="media-body col-xs-12  col-lg-6 madia-haha ">
+                            <a href="javascript:;">
+                                <img class="media-object qnjpic1" src="images/大切诺基/index/design3.jpg" alt="...">
+                            </a>
+                            <a href="javascript:;" data-toggle="modal" data-target="#lunzi">
+                                <img class="media-object qnjpic2" src="images/大切诺基/index/design3_icon.png" alt="...">
+                            </a>
+                            <!-- Large modal 大 -->
+                            <div id="lunzi" class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog"
+                                 aria-labelledby="myLargeModalLabel">
+                                <div class="modal-dialog modal-lg" role="document">
+                                    <div class="modal-content">
+                                        <img src="images/大切诺基/index/pup2.jpg" alt=""/>
+
+                                        <p><span>20英寸白金轮毂</span>
+                                            标志性20英寸白金轮毂，
+                                            带来十足尊崇感及立体感，
+                                            极具视觉张力的同时，
+                                            还能明显提高轮胎的抓地性能，
+                                            对公路行驶能力大有裨益。
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="media">
+                    <div class="row">
+                        <div class="media-left col-xs-10 col-lg-6">
+                            <a href="javascript:;">
+                                <img class="media-object qnjpic1" style="width: 90%;"
+                                     src="images/大切诺基/index/design6.jpg" alt="...">
+                            </a>
+                            <a href="javascript:;" data-toggle="modal" data-target="#chuang">
+                                <img class="media-object qnjpic2" src="images/大切诺基/index/design6_icon.png" alt="...">
+                            </a>
+                            <!-- Large modal 大 -->
+                            <div id="chuang" class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog"
+                                 aria-labelledby="myLargeModalLabel">
+                                <div class="modal-dialog modal-lg" role="document">
+                                    <div class="modal-content">
+                                        <img src="images/大切诺基/index/pup4.jpg" alt=""/>
+
+                                        <p><span>超大型Command View®</span>
+                                            全景天窗
+                                            通过一键式按钮即可自动闭合
+                                            前玻璃板或电动遮阳帘，
+                                            实现高效通风，
+                                            确保充足的采光效果。
+                                            全部采用玻璃板密封
+                                            与车顶闭合位置齐边设计，
+                                            有效消除风噪。
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="media-body col-xs-10  col-lg-6 madia-haha ">
+                            <a href="javascript:;">
+                                <img class="media-object qnjpic1" style="width: 100%;"
+                                     src="images/大切诺基/index/design7.jpg" alt="...">
+                            </a>
+                            <a href="javascript:;" data-toggle="modal" data-target="#zuo">
+                                <img class="media-object qnjpic2" src="images/大切诺基/index/design7_icon.png" alt="...">
+                            </a>
+                            <!-- Large modal 大 -->
+                            <div id="zuo" class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog"
+                                 aria-labelledby="myLargeModalLabel">
+                                <div class="modal-dialog modal-lg" role="document">
+                                    <div class="modal-content">
+                                        <img src="images/大切诺基/index/pup5.jpg" alt=""/>
+
+                                        <p><span>Laguna 真皮桶式座椅</span>
+                                            结合瑞典ELMO真皮与意大利工匠的精湛工艺
+                                            带来绝佳视觉享受和细腻支撑感。
+                                            在这个位置上，
+                                            你尽可以完全放松。
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="media">
+                    <div class="row">
+                        <div class="media-left col-xs-10  col-lg-6 ">
+                            <a href="javascript:;">
+                                <img class="media-object qnjpic1" src="images/大切诺基/index/design4.jpg" alt="...">
+                            </a>
+                            <a href="javascript:;" data-toggle="modal" data-target="#houdeng">
+                                <img class="media-object qnjpic2" src="images/大切诺基/index/design4_icon.png" alt="...">
+                            </a>
+                            <!-- Large modal 大 -->
+                            <div id="houdeng" class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog"
+                                 aria-labelledby="myLargeModalLabel">
+                                <div class="modal-dialog modal-lg" role="document">
+                                    <div class="modal-content">
+                                        <img src="images/大切诺基/index/pup3.jpg" alt=""/>
+
+                                        <p><span>标志性的LED后尾灯系统</span>
+                                            后方的红色LED行车灯环绕于停车指示灯，
+                                            能与前大灯相得益彰的同步亮起。
+                                            且独特LED后灯采用分散式结构，
+                                            实现全覆盖照明效果，
+                                            相较灯珠可见的LED系统更胜一筹，
+                                            让尾部更具专属识别性。
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="media-body col-xs-6  col-lg-6 madia-haha ">
+                            <a href="javascript:;">
+                                <img class="media-object qnjpic1" src="images/大切诺基/index/design8.jpg" alt="...">
+                            </a>
+                            <a href="javascript:;" data-toggle="modal" data-target="#neishi">
+                                <img class="media-object qnjpic2" src="images/大切诺基/index/design8_icon.png" alt="...">
+                            </a>
+                            <!-- Large modal 大 -->
+                            <div id="neishi" class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog"
+                                 aria-labelledby="myLargeModalLabel">
+                                <div class="modal-dialog modal-lg" role="document">
+                                    <div class="modal-content">
+                                        <img src="images/大切诺基/index/pup6.jpg" alt=""/>
+
+                                        <p><span>灵感源自全球绝美圣境地貌的考究内饰</span>
+                                            新西兰主题内饰
+                                            摩洛哥夜色主题内饰
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--底部-->
+<div class="foot">
+    <div class="container">
+        <p>Global Site | 隐私条款 | 联系我们 | 加入我们 | 网站地图 | 手机版
+            网站中所有产品图片及文字说明均有可能变更。克莱斯勒[中国]汽车销售有限公司/广汽菲亚特克莱斯勒汽车销售有限公司保留对所描述车型进行更改的权利，
+            并且任何时候都无需承担因以产品改进为目的的设计和[或]市场营销等原因而必须提前通知的义务。
+            沪ICP备09014236号-12</p>
+
+        <p>
+            <a href="#"><img src="images/footer05.png" alt=""/></a>
+            <a href="#"><img src="images/footer04.png" alt=""/></a>
+            <a href="#"><img src="images/footer03.png" alt=""/></a>
+        </p>
+    </div>
+</div>
+<script src="lib/jquery-2.1.4/dist/jquery.min.js"></script>
+<script src="lib/bootstrap-3.3.6/dist/js/bootstrap.min.js"></script>
+<script src="lib/swiper/js/swiper.jquery.min.js"></script>
+<script src="js/index.js"></script>
+<script>
+    window.onload = function () {
+        var mySwiper = new Swiper('.swiper-container', {
+            direction: 'horizontal',
+            loop: true,
+            autoplay: 2000,
+            autoplayDisableOnInteraction: false,
+
+            // 如果需要分页器
+            pagination: '.swiper-pagination',
+
+            // 如果需要前进后退按钮
+            nextButton: '.swiper-button-next',
+            prevButton: '.swiper-button-prev',
+
+        })
+
+
+        $('video').click(function () {
+            if ($(this).hasClass('pause')) {
+                $("video").trigger("play");
+                $(this).removeClass('pause');
+                $(this).addClass('play');
+            } else {
+                $("video").trigger("pause");
+                $(this).removeClass('play');
+                $(this).addClass('pause');
+            }
+        })
+
+    }
+</script>
+</div>
+</body>
+
+</html>
